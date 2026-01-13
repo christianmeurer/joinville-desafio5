@@ -3,16 +3,16 @@
 **Edital de referência:** [`SEI_PMJ - 27819814 - Edital.pdf`](SEI_PMJ%20-%2027819814%20-%20Edital.pdf:1) (Edital SEI nº 27819814/2025 – SDE.UEC)  
 **Desafio:** 5 – Unificar o atendimento de saúde, educação e esportes para neurodivergentes  
 **Canal de envio (conforme edital):** formulário eletrônico (envio exclusivo): https://forms.gle/fXFd8Ky9CuPQrKCs7  
-**Dúvidas sobre a consulta (conforme edital):** sde.uec@joinville.sc.gov.br (prazo indicado no edital)  
+**Dúvidas sobre a consulta (conforme edital):** sde.uec@joinville.sc.gov.br (prazo indicado no edital)
 
 ---
 
-## Capa
+## 1) Capa (para submissão via formulário)
 
-**Título:** Proposta técnica preliminar – Desafio 5 (atendimento integrado a neurodivergentes)  
-**Proponente:** **[NOME DA EMPRESA]** – **[BREVE DESCRIÇÃO DO PROPONENTE / SETOR]** (**[TEMPO DE ATUAÇÃO]**)  
-**Versão:** 1.0 (Consulta pública)  
-**Data:** 13/01/2026  
+- **Título:** Proposta técnica preliminar – Desafio 5 (atendimento integrado a neurodivergentes)
+- **Proponente:** **[NOME DA EMPRESA]** – **[BREVE DESCRIÇÃO / SETOR]** (**[TEMPO DE ATUAÇÃO]**)
+- **Versão:** 2.0 (Consulta pública – reestruturação com Business Model Canvas + Design de Serviço)
+- **Data:** 13/01/2026
 
 **Contato do proponente (preencher no formulário):**
 
@@ -24,64 +24,62 @@
 - Endereço: **[ENDEREÇO]**
 - Site: **[URL]**
 
-> Nota: os campos acima permanecem como placeholders porque a submissão ocorre via formulário. Eles podem ser removidos caso o formulário já cubra integralmente essas informações.
+> Nota: os campos acima permanecem como placeholders porque a submissão ocorre via formulário.
+
+### 1.1 Apresentação do proponente (resumo)
+
+Somos uma organização com atuação em **soluções digitais e integração de sistemas**, com experiência em:
+
+- desenvolvimento e sustentação de sistemas web;
+- integração com sistemas legados e interoperabilidade via APIs;
+- governança de dados, trilhas de auditoria e indicadores;
+- desenho de fluxos e jornadas com múltiplos perfis (cidadãos, profissionais e gestão).
+
+**Observação:** esta proposta não presume integrações específicas com sistemas municipais nesta fase de consulta. Detalhes técnicos e comprovações podem ser apresentados em eventual etapa posterior.
 
 ---
 
-## Sumário
+## 2) Resumo executivo (objetivo, para leitura rápida)
 
-1. Resumo executivo (para formulário)
-2. Enquadramento na consulta pública e no Desafio 5
-3. Respostas aos quesitos do edital (mapeamento)
-4. Apresentação do proponente
-5. Entendimento do problema e objetivos do desafio
-6. Solução proposta
-7. Situação de maturidade (TRL) e hipóteses
-8. Requisitos mínimos para operação
-9. Metodologia, etapas e cronograma estimado
-10. Plano de testes e validação (controlado e ambiente real)
-11. Estimativa preliminar de custos por etapa
-12. Modalidades de remuneração e incentivos (opções)
-13. Propriedade intelectual e licenciamento (sugestões)
-14. LGPD, privacidade e segurança da informação
-15. Riscos e estratégias de mitigação
-16. Impactos esperados
-17. Confidencialidade: o que será marcado e como destacar
-18. Declarações finais (consulta pública)
-19. Anexos
+### 2.1 Em uma frase
 
----
+Implantar um **serviço municipal de navegação e coordenação de cuidado** para pessoas neurodivergentes, integrando Saúde, Educação e Esportes por meio de **processos padronizados + atendimento humanizado + plataforma digital com governança, acesso controlado e trilha de auditoria**.
 
-## 1. Resumo executivo (para formulário)
+### 2.2 Problemas reais hoje não resolvidos (dor do usuário e da rede)
 
-### 1.1 Em uma frase
-Proposta de **plataforma digital de atendimento integrado** para pessoas neurodivergentes, com **compartilhamento controlado de informações**, **planos individualizados intersetoriais** e **rastreabilidade**, conectando Saúde, Educação e Esportes.
+- **Navegação fragmentada:** família precisa “descobrir” onde ir, como agendar e quais documentos levar.
+- **Coordenação de cuidado frágil:** encaminhamentos sem rastreio; contrarreferência incompleta.
+- **Fila/triagem com baixa previsibilidade:** repetição de triagens, duplicidade de cadastros e documentos.
+- **Acesso a direitos e orientações:** informação dispersa, linguagem difícil, baixa previsibilidade.
+- **Sobrecarga das famílias/cuidadores:** família vira “ponte” entre serviços.
+- **Capacitação desigual:** profissionais e gestores sem apoio prático (protocolos, checklists, fluxos).
 
-### 1.2 O que esta contribuição entrega nesta consulta
-- visão de solução e módulos prioritários para um **piloto**;
-- proposta de **implantação por etapas** (descoberta → MVP → piloto controlado → piloto em ambiente real → plano de escala);
-- sugestão de **métricas, testes e evidências**;
-- faixas de **ordem de grandeza de custos** por etapa (não vinculantes);
-- diretrizes de **LGPD/segurança** e de **confidencialidade/LAI**.
+### 2.3 O que esta contribuição entrega nesta consulta
 
-### 1.3 Observações de ressalva (aderência ao edital)
-- esta manifestação tem caráter **informativo e não vinculante**;
-- a consulta pública **não gera obrigação de contratação** nem qualquer direito de preferência;
-- prazos, custos e integrações são **estimativas condicionadas** à etapa de diagnóstico e ao cenário tecnológico do Município.
+- reestruturação do documento para ficar **mais direto e fácil de compreender**;
+- seção clara de **Business Model Canvas (9 blocos)** orientado ao serviço;
+- **Design de Serviço** para operacionalização (personas, jornada, blueprint, papéis, canais, evidências, falhas e mitigação);
+- proposta do **“básico bem feito”** (MVP do serviço) para reduzir risco e aumentar adesão;
+- **KPIs** objetivos e modelo de **sustentabilidade** coerente com setor público/ecossistema;
+- diretrizes essenciais de **LGPD/segurança** e de **confidencialidade/LAI**.
+
+### 2.4 Ressalvas (aderência ao edital)
+
+- manifestação **informativa e não vinculante**;
+- a consulta pública **não gera obrigação de contratação** nem preferência;
+- prazos, custos e integrações são **estimativas condicionadas** à etapa de descoberta/diagnóstico e ao cenário tecnológico do Município.
 
 ---
 
-## 2. Enquadramento na consulta pública e no Desafio 5
+## 3) Enquadramento na consulta pública e no Desafio 5
 
-### 2.1 Natureza da contribuição
+### 3.1 Natureza da contribuição
 
-- A presente manifestação é enviada no contexto de **consulta pública ao mercado** para coleta de informações, sem obrigação de contratação posterior.
-- Conforme previsto no edital, o envio é realizado **exclusivamente via formulário eletrônico** (link acima).
-- A proposta está estruturada em seções curtas, para facilitar o preenchimento do formulário, mesmo sem conhecimento prévio dos campos.
+- contribuição enviada no contexto de **consulta pública ao mercado** para coleta de informações;
+- submissão via **formulário eletrônico** (conforme edital);
+- proposta estruturada em blocos curtos para facilitar o preenchimento.
 
-### 2.2 Cronograma indicativo (referência)
-
-Conforme o edital, o cronograma indicativo inclui (datas meramente indicativas e passíveis de alteração):
+### 3.2 Cronograma indicativo (referência do edital)
 
 - Publicação do edital de consulta pública: 11/12/2025
 - Recebimento de dúvidas: 11/12/2025 a 10/01/2026
@@ -90,473 +88,401 @@ Conforme o edital, o cronograma indicativo inclui (datas meramente indicativas e
 - Análise das contribuições recebidas: 19/01/2026 a 23/01/2026
 - Publicação do compilado: 27/01/2026
 
-**Nota:** além do quadro acima, o edital também informa canal e prazos específicos para dúvidas por e-mail. Quando houver divergência, prevalece o edital.
+**Nota:** prevalece o edital em caso de divergência de prazo/canal.
 
 ---
 
-## 3. Respostas aos quesitos do edital (mapeamento)
+## 4) Entendimento do problema e objetivo público (contexto do desafio)
 
-Esta seção organiza a proposta conforme os quesitos listados no edital (item 2.3, letras a–n), em formato adequado para submissão via formulário.
+O **Desafio 5** descreve a necessidade de integrar, de forma coordenada, serviços de:
 
-### (a) Solução existente vs. desenvolvimento total/incremental
-- A proposta pode ser conduzida de duas formas, a definir após diagnóstico:
-  - **Adaptação de solução existente** (quando houver base já validada e reutilizável) – com customizações, integrações e governança municipais.
-  - **Desenvolvimento incremental** (quando se parte de componentes reutilizáveis) – com construção do produto integrado e validações progressivas.
-- Em ambos os casos, recomenda-se iniciar por **descoberta e co-desenho** para reduzir risco de escopo e de integração.
-
-### (b) Especificações técnicas/operacionais, funcionalidades e TRL
-- Visão funcional e módulos prioritários estão em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:120).
-- Visão arquitetural (componentes, integrações, segurança e dados) em [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1).
-- TRL (estimativa a confirmar) em [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1) e em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:182).
-
-### (c) Requisitos mínimos de capacidade técnica/profissional/operacional
-- Perfis de equipe, competências e requisitos operacionais em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:200).
-
-### (d) Origens (nacional/internacional) de materiais e insumos
-- Para uma solução digital, os principais “insumos” são **serviços de engenharia**, **infraestrutura computacional** (on-premises/nuvem) e, eventualmente, **licenças**.
-- Recomenda-se permitir soluções com componentes nacionais e/ou internacionais, desde que atendam a:
-  - requisitos de segurança e privacidade;
-  - transparência de cadeia de suboperadores;
-  - mecanismos de portabilidade e continuidade.
-
-### (e) Potenciais fornecedores (nacionais/internacionais)
-- A consulta pode mapear fornecedores por categoria (ex.: desenvolvimento de software; integração; hospedagem; segurança; UX/pesquisa; suporte e treinamento).
-- Esta manifestação descreve uma trilha de solução e não pretende esgotar o mercado.
-
-### (f) Etapas, tempo estimado e cronograma físico-financeiro
-- Etapas e duração de referência em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:236).
-- Cronograma físico-financeiro (ordem de grandeza) em [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1).
-
-### (g) Testes em ambiente controlado e em ambiente real
-- Estratégia, passos e evidências em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) e em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:287).
-
-### (h) Custo estimado por etapa e programação financeira
-- Faixas de custo por etapa em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:321).
-- Premissas e fatores de variação em [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1).
-
-### (i) Modalidades de remuneração e incentivos
-- Alternativas (marcos, reembolso com tetos, componente variável, continuidade/SLA) em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:340).
-
-### (j) Arranjos de propriedade intelectual (software, dados, código-fonte)
-- Sugestões de modelos (dados sob governança do Município; licenças; reuso de componentes; documentação; continuidade) em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:358).
-
-### (k) Métricas de desempenho e avaliação de resultados
-- Catálogo de métricas e forma de medição (sem metas numéricas fixas nesta fase) em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) e em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:308).
-
-### (l) Riscos tecnológicos, operacionais e regulatórios + mitigação
-- Matriz de riscos e ações de mitigação em [`Anexo_D_Matriz_Riscos.md`](Anexo_D_Matriz_Riscos.md:1) e em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:391).
-
-### (m) Impactos esperados (econômicos/financeiros, sociais e ambientais)
-- Impactos e formas de evidenciar ganhos em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:404).
-
-### (n) Outros aspectos relevantes
-- Governança intersetorial, capacitação por perfil, acessibilidade e desenho centrado no usuário.
-- Checklist LGPD/segurança e práticas de privacidade desde a concepção em [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1).
-
----
-
-## 4. Apresentação do proponente
-
-Somos uma organização com atuação em **soluções digitais e integração de sistemas**, com experiência em:
-
-- desenvolvimento e sustentação de sistemas web;
-- integração com sistemas legados e interoperabilidade via APIs;
-- governança de dados e trilhas de auditoria;
-- desenho de fluxos e jornadas com diferentes perfis de usuário (equipes técnicas, gestão e cidadãos).
-
-**Observação importante:** esta proposta não presume certificações, credenciamentos ou integrações específicas com sistemas municipais. Caso o Município julgue oportuno, as referências técnicas e comprovações podem ser detalhadas mediante solicitação de complementos, nos termos do edital.
-
----
-
-## 5. Entendimento do problema e objetivos do desafio
-
-O **Desafio 5** descreve a necessidade de integrar de forma coordenada os serviços de:
-
-- **Saúde** (avaliação, diagnóstico, terapias, acompanhamento clínico);
+- **Saúde** (avaliação, diagnóstico, terapias, acompanhamento);
 - **Educação** (acolhimento escolar, adaptações pedagógicas, apoio especializado);
-- **Esportes** (fomento de políticas e práticas desportivas formais e não formais);
+- **Esportes** (políticas e práticas desportivas formais e não formais);
 
 para garantir **cuidado contínuo, articulado e centrado na pessoa neurodivergente**.
 
-### 5.1 Dor principal (o que precisa mudar)
-
-Pelo que consta no edital, a situação atual tende a produzir:
-
-- fragmentação entre as redes e baixa interoperabilidade;
-- comunicação lenta e pouco rastreável (ofícios, documentos dispersos);
-- desalinhamento entre instrumentos como plano escolar e plano terapêutico (PDI/PTS);
-- sobrecarga das famílias, que acabam atuando como “ponte” de informações;
-- baixa visibilidade de progresso e intervenções ao longo do tempo, dificultando acompanhamento e coordenação.
-
-### 5.2 Objetivo público da solução
-
-Criar mecanismos para que **escola, saúde, esporte e família** atuem como uma **rede única**, compartilhando informações e objetivos com segurança, respeitando a singularidade de cada pessoa e os limites legais (LGPD e LAI).
+**O que precisa mudar (síntese):** reduzir fragmentação, dar rastreabilidade a encaminhamentos/contrarreferência, diminuir retrabalho, tirar a família do papel de “ponte” e dar previsibilidade e humanização ao atendimento.
 
 ---
 
-## 6. Solução proposta
+## 5) Visão do serviço proposto (o que é, para quem e por quê)
 
-### 6.1 Visão geral
+### 5.1 Nome de trabalho do serviço
 
-Propomos uma plataforma digital de **atendimento integrado a neurodivergentes**, orientada por:
+**Joinville Neuro – Atendimento Integrado (Saúde + Educação + Esportes)**
 
-- **registro unificado** (ficha/prontuário integrado, com recortes de acesso por setor);
-- **planos de cuidado intersetoriais**, com metas e acompanhamento;
-- **jornada do usuário** (encaminhamentos, eventos e interações ao longo do tempo);
-- **integrações via APIs**, evitando duplicidade de cadastros e reentrada manual;
-- **governança e consentimento**, com trilhas de auditoria e controles de acesso.
+### 5.2 Para quem (beneficiários e usuários)
 
-O desenho busca apoiar o que o edital descreve como necessidade de superar silos e permitir planos integrados, com comunicação efetiva entre profissionais.
+- **Pessoa neurodivergente** (criança, adolescente ou adulto), com diferentes níveis de suporte.
+- **Famílias e cuidadores** (inclui responsáveis legais).
+- **Profissionais e gestores** de Saúde, Educação e Esportes (e áreas transversais).
 
-### 6.2 Principais módulos (proposta funcional)
+### 5.3 Proposta de valor pública (o que muda na prática)
 
-1) **Cadastro e Identificação da Pessoa (núcleo)**
-- cadastro único do usuário (com campos mínimos e extensíveis);
-- vinculação a responsáveis e contatos relevantes;
-- histórico de atendimentos (linha do tempo de eventos).
+1) **Um único ponto de entrada (triagem/navegação)** com acolhimento e direcionamento.
+2) **Plano individual integrado** (metas e responsabilidades por setor, com revisões periódicas).
+3) **Encaminhamentos rastreáveis com contrarreferência** (status, prazos, retorno estruturado).
+4) **Informação acessível e humanizada** (linguagem clara, previsibilidade, evidências do serviço).
+5) **Gestão por indicadores** (fila, tempos, aderência, qualidade de registro, experiência da família).
 
-2) **Registro/Prontuário Integrado (por camadas de acesso)**
-- registro estruturado de avaliações, observações, intervenções e acompanhamentos;
-- anexação de documentos (com trilha de auditoria);
-- separação por “camadas” ou “visões” (por exemplo: saúde, educação, esportes), com compartilhamento controlado.
+### 5.4 O “básico bem feito” (MVP do serviço)
 
-3) **Planos Individualizados Integrados (clínico + pedagógico + participação em esporte)**
-- criação e gestão de um plano integrado, com metas, responsáveis e periodicidade de revisão;
-- tarefas e lembretes para execução e acompanhamento;
-- registro de evolução e indicadores qualitativos e quantitativos (definidos em co-desenho).
+Entrega mínima que já gera valor e evita “plataforma grande que não pega”:
 
-4) **Gestão de Encaminhamentos e Contrarreferência**
-- emissão, recebimento e acompanhamento de encaminhamentos entre rede escolar, UBS/serviços especializados e esporte;
-- status, prazos e justificativas;
-- mecanismo de “contrarreferência” para retorno estruturado de informações relevantes.
-
-5) **Jornada do Usuário e Comunicação Assistida (sem substituir canais oficiais)**
-- linha do tempo com eventos relevantes (matrícula/acolhimento, avaliação, intervenção, revisões);
-- mensagens/notificações internas (quando aplicável) para reduzir extravio e ruído;
-- registros de ciência/aceite quando necessário.
-
-6) **Relatórios e Painéis de Gestão (com anonimização quando cabível)**
-- relatórios operacionais (fluxo de encaminhamentos, pendências, revisões de plano);
-- relatórios de coordenação (aderência a protocolos definidos);
-- painéis para monitoramento de métricas acordadas no piloto.
-
-7) **Governança, Perfis, Consentimento e Auditoria**
-- perfis por secretaria e por função;
-- controle de acesso por necessidade (princípio do mínimo privilégio);
-- gestão de consentimento e bases legais aplicáveis, com registros e versionamento;
-- logs e trilha de auditoria (quem viu, quem alterou, quando e por quê).
-
-### 6.3 Integração e interoperabilidade (proposta técnica)
-
-- Integração por **APIs** (REST/JSON ou padrão adotado pelo Município), com autenticação e trilhas de auditoria.
-- Importação/exportação controlada de dados (evitando duplicidade e garantindo qualidade).
-- Estratégia de interoperabilidade orientada a **cadastros mínimos**, com expansão por fases.
-
-**Observação:** a definição de quais sistemas serão integrados e por quais meios (API, troca de arquivos, barramento, etc.) depende do cenário atual do Município e deve ser detalhada em uma etapa de descoberta.
+- **Cadastro mínimo + vínculo com responsável** (com deduplicação assistida).
+- **Triagem inicial e navegação** (orientação prática: “o que fazer agora”, “o que levar”, “quem atende”).
+- **Encaminhamento com status** e “próximo responsável” explícito.
+- **Plano integrado (v1)** com 3–5 metas claras, responsáveis e data de revisão.
+- **Suporte às famílias** com checklists e linguagem acessível (presencial/remoto).
 
 ---
 
-## 7. Situação de maturidade (TRL) e hipóteses
+## 6) Business Model Canvas (BMC) – 9 blocos (orientado ao serviço)
 
-O edital solicita indicação de estágio de desenvolvimento (TRL), quando aplicável. Como esta consulta não inclui um inventário completo do que já existe no Município e do que o proponente já tem pronto, propomos duas leituras possíveis, a confirmar em diagnóstico:
+> Observação: por ser serviço público, o BMC considera **sustentabilidade e governança** (custos/financiamento/valor público) e **viabilidade de operação** (não apenas “venda”).
 
-### Opção A – Produto com base existente (MVP prévio, adaptável)
-
-- **TRL provável:** 6–7 (*a confirmar*).  
-  Interpretação: protótipo/MVP validado em ambiente relevante, com necessidade de adaptação a regras, integrações e governança municipais.
-
-### Opção B – Desenvolvimento incremental a partir de componentes reutilizáveis
-
-- **TRL provável:** 4–6 (*a confirmar*).  
-  Interpretação: componentes e experiência de engenharia disponíveis, com necessidade de construção do produto integrado, testes e validação progressiva.
-
-Em ambos os casos, recomenda-se iniciar com **descoberta e co-desenho** para confirmar requisitos, dados, riscos e restrições, antes de fixar cronograma e orçamento com maior precisão.
+| Bloco | Definição para o serviço Joinville Neuro |
+|---|---|
+| **1. Segmentos de Clientes** | (i) Pessoas neurodivergentes; (ii) familiares/cuidadores; (iii) profissionais de Saúde/Educação/Esportes; (iv) gestores; (v) parceiros do ecossistema (quando formalizados) |
+| **2. Proposta de Valor** | Acolhimento e navegação; coordenação intersetorial; plano integrado; rastreabilidade de encaminhamentos; redução de retrabalho; acesso a orientações/direitos; indicadores para gestão |
+| **3. Canais** | Ponto físico pactuado; portal/app; telefone; WhatsApp institucional (se aplicável); integração com canais já existentes do Município; capacitação em serviço |
+| **4. Relacionamento** | Acolhimento humanizado; acompanhamento por “coordenação de caso” quando necessário; autosserviço assistido para família; plantões e guias rápidos para profissionais |
+| **5. Fontes de Receita / Financiamento** | Orçamento municipal (custeio); convênios/transferências (quando aplicável); projetos de inovação (fundos/edital); parcerias com universidades/instituições (contrapartidas); contratação por marcos + operação (SLA) |
+| **6. Recursos-chave** | Equipe multiprofissional (produto, UX, engenharia, dados, segurança); governança intersetorial; plataforma (cadastro, encaminhamento, plano, indicadores); materiais acessíveis; capacitação |
+| **7. Atividades-chave** | Co-desenho e implantação; operação assistida; gestão de fila/triagem; gestão do plano; contrarreferência; integrações; monitoramento de KPIs; melhoria contínua |
+| **8. Parcerias-chave** | Secretarias (Saúde/Educação/Esportes); TI municipal; áreas transversais (LGPD/jurídico/assistência social quando aplicável); unidades de ponta; universidades; conselhos e organizações locais (a pactuar) |
+| **9. Estrutura de Custos** | Desenvolvimento/integração; infraestrutura e operação; suporte e capacitação; governança e auditoria; acessibilidade (conteúdo, testes e adaptações); operação do serviço na ponta |
 
 ---
 
-## 8. Requisitos mínimos para operação
+## 7) Design de Serviço para operacionalização (humanização + acessibilidade)
 
-### 8.1 Infraestrutura e operação
+### 7.1 Princípios de desenho (o que guia decisões)
+
+- **Nada sobre nós sem nós:** co-desenho com neurodivergentes e famílias.
+- **Acessibilidade como requisito:** linguagem, sensorial, cognitiva, comunicação.
+- **Humanização na ponta:** acolhimento, previsibilidade, transparência de próximos passos.
+- **Mínimo necessário de dados (LGPD)** + governança de acesso (mínimo privilégio).
+- **Integração por processo antes de integração por tecnologia**.
+- **Evidências do serviço:** o usuário sempre entende “o que foi registrado” e “o que acontece agora”.
+
+### 7.2 Personas (mínimo 3)
+
+| Persona | Contexto | Necessidades | Dores atuais | O que o serviço deve entregar |
+|---|---|---|---|---|
+| **Pessoa neurodivergente (ex.: adolescente)** | Usa escola e esportes; pode ter dificuldades de comunicação e sensoriais | Previsibilidade; comunicação clara; respeito; continuidade | Troca de profissionais; repetição de avaliações; ambientes pouco acessíveis | Plano integrado com rotinas; adaptações; registro do que funciona; opções de atendimento acessíveis |
+| **Familiar/cuidador** | Organiza agenda e documentos; faz pontes entre redes | Informação confiável; fila transparente; orientação de direitos; suporte | “Corre atrás”; falta de status; retrabalho | Navegação guiada; checklists; status de encaminhamento; canal de suporte; redução de idas desnecessárias |
+| **Profissional/gestor da rede** | Atende com tempo curto e sistemas distintos | Fluxos padronizados; acesso ao mínimo necessário; contrarreferência; indicadores | Informação incompleta; baixa interoperabilidade; pressão por fila | Encaminhamento rastreável; registro mínimo; painéis; capacitação prática |
+
+### 7.3 Jornada do usuário (etapas do serviço)
+
+| Etapa | Objetivo do usuário | Entregas do serviço | Evidência (o que a pessoa “vê”) |
+|---|---|---|---|
+| **1. Entrada e acolhimento** | Ser recebido sem julgamento e entender próximos passos | Acolhimento + triagem inicial + orientação | Guia “o que acontece agora” + checklist + canal de suporte |
+| **2. Triagem e priorização** | Ser direcionado corretamente com critérios claros | Classificação de necessidade + fila/agenda com regras pactuadas | Status “em triagem / aguardando / agendado” e justificativa em linguagem simples |
+| **3. Avaliação e encaminhamentos** | Fazer o necessário sem repetição excessiva | Encaminhamento com prazos, responsável e contrarreferência | Número/identificador do encaminhamento, prazo estimado, local e documentos |
+| **4. Plano integrado (v1)** | Ter um plano simples que una setores | Metas, rotinas, responsáveis e revisão | Resumo do plano para família + versão técnica para rede |
+| **5. Execução e acompanhamento** | Ver evolução e ajustar quando necessário | Linha do tempo, registros mínimos, alertas de revisão | Histórico e lembretes; visão do que foi feito e do que falta |
+| **6. Revisão e transições** | Manter continuidade (troca de escola/equipe/ciclo) | Revisão periódica + plano de transição | Registro de revisão + próximos passos + contatos |
+
+### 7.4 Service Blueprint (frontstage/backstage/suporte)
+
+| Etapa | Frontstage (interação com usuário) | Backstage (processos internos) | Suporte (tecnologia, governança, parceiros) |
+|---|---|---|---|
+| Entrada | Acolhimento presencial/remoto; linguagem simples; opção de acompanhante | Registro mínimo; checagem de duplicidade; classificação inicial | Materiais acessíveis; regras de acesso; logs |
+| Triagem | Orientações e previsibilidade de fila | Critérios pactuados; encaminhamento inicial | Fluxo/status; painéis de fila; integração com agendas (se houver) |
+| Encaminhamento | Status e prazos; confirmação | Comunicação intersetorial; contrarreferência estruturada | Integrações por API; templates; auditoria |
+| Plano integrado | Co-construção com família e profissionais | Consolidação de metas; atribuição de responsabilidades; revisão | Modelos de plano; dicionário mínimo; BI |
+| Acompanhamento | Feedback e ajustes; canal de suporte | Monitoramento de aderência; gestão de pendências | Suporte/treinamento; indicadores; gestão de incidentes |
+
+### 7.5 Papéis e responsabilidades (RACI simplificado)
+
+| Atividade | Saúde | Educação | Esportes | Coordenação intersetorial | TI/Segurança | Família | Observação |
+|---|---|---|---|---|---|---|---|
+| Definir critérios de triagem/encaminhamento | R | R | R | A | C | C | Pactuação formal e revisão |
+| Acolhimento e triagem inicial | R | C | C | A | C | C | Pode variar por ponto de entrada |
+| Plano integrado (metas e revisão) | R | R | R | A | C | C | Versões: técnica e linguagem simples |
+| Contrarreferência | R | R | R | A | C | I | Sem retorno, o ciclo “quebra” |
+| Indicadores e governança | C | C | C | A | R | I | Transparência e aprendizado |
+
+Legenda: **R** = responsável (executa); **A** = aprovador (responde pelo resultado); **C** = consultado; **I** = informado.
+
+### 7.6 Canais e evidências do serviço
+
+- **Canais principais:** presencial (unidades pactuadas), telefone, portal/app, WhatsApp institucional (se aplicável), e-mail institucional, materiais impressos acessíveis.
+- **Evidências do serviço:** protocolo de acolhimento; cartão/guia “próximos passos”; status do encaminhamento; resumo do plano integrado; comprovantes de agendamento; linha do tempo.
+
+### 7.7 Pontos de falha comuns e mitigação (humanização + acessibilidade)
+
+| Ponto de falha | Como aparece | Mitigação no desenho do serviço |
+|---|---|---|
+| Repetição de triagens/documentos | família “conta a história” várias vezes | cadastro mínimo + anexos com trilha + regras de reuso/validade |
+| Comunicação inacessível | linguagem técnica, instruções confusas | linguagem simples; roteiros; validação com usuários; conteúdo acessível |
+| Exposição indevida de dados | medo/risco de vazamento | mínimo privilégio; visões por contexto; logs; auditoria; treinamento LGPD |
+| Encaminhamento sem retorno | “sumiu na fila” | status obrigatório + SLA de contrarreferência + alertas + gestão de pendências |
+| Falta de previsibilidade | ansiedade e desistência | prazos estimados, critérios visíveis, mensagens de progresso, canal de suporte |
+
+### 7.8 Integração ao ecossistema local (como se conecta “de verdade”)
+
+Integrações a validar na descoberta (sem presumir estrutura específica):
+
+- **Rede de Saúde:** atenção primária, serviços especializados, reabilitação/terapias.
+- **Rede de Educação:** escolas e equipes de apoio/gestão pedagógica.
+- **Rede de Esportes:** equipamentos, programas, projetos e turmas.
+- **Áreas transversais:** assistência social/rede de proteção (quando pertinente) e áreas de governança.
+- **Ecossistema:** universidades, organizações da sociedade civil e grupos de apoio (mediante pactuação e regras de acesso).
+
+---
+
+## 8) Solução digital (habilitador do serviço) – módulos e interoperabilidade
+
+> A tecnologia é o meio. O “produto” é o serviço operando com previsibilidade, rastreabilidade e acolhimento.
+
+### 8.1 Módulos mínimos (prioridade para piloto)
+
+1) **Cadastro e identificação (núcleo):** cadastro mínimo, vínculo com responsável, deduplicação assistida.
+2) **Triagem/navegação:** registro do motivo, classificação, orientação e próximos passos.
+3) **Encaminhamentos + contrarreferência:** status, prazos, responsável, retorno estruturado.
+4) **Plano individual integrado (v1):** metas simples, responsáveis, revisão e linha do tempo.
+5) **Painéis e relatórios (v1):** fila/tempos, completude, aderência e uso.
+6) **Governança e auditoria:** perfis, mínimo privilégio, logs e trilhas.
+
+### 8.2 Integração e interoperabilidade
+
+- Integrações por **APIs** (REST/JSON ou padrão adotado pelo Município), com autenticação e trilhas de auditoria.
+- Estratégia por fases: primeiro **cadastro mínimo + eventos/encaminhamentos**, depois enriquecimento.
+- Definição de quais sistemas integrar (e como: API, lote, barramento) depende do diagnóstico.
+
+Visão arquitetural e práticas de segurança/dados em [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1).
+
+---
+
+## 9) Situação de maturidade (TRL) e hipóteses
+
+Como a consulta não inclui inventário completo do cenário municipal e do que o proponente já dispõe, a maturidade deve ser confirmada na descoberta:
+
+- **Opção A – adaptação de base existente (MVP prévio):** TRL provável **6–7** (*a confirmar*).
+- **Opção B – desenvolvimento incremental (componentes reutilizáveis):** TRL provável **4–6** (*a confirmar*).
+
+---
+
+## 10) Operação e implantação (etapas, governança e mudança)
+
+Execução em fases com validação progressiva.
+
+### 10.1 Etapas (referência)
+
+**Etapa 0 – Preparação e governança (2 a 4 semanas)**
+
+- comitê intersetorial (Saúde/Educação/Esportes + áreas transversais);
+- definição do ponto de entrada do piloto e papéis;
+- critérios iniciais de triagem/encaminhamento;
+- KPIs e rotina de reporte.
+
+**Etapa 1 – Descoberta e co-desenho (4 a 8 semanas)**
+
+- mapeamento do fluxo atual e pontos de ruptura;
+- oficinas com profissionais e representantes de famílias;
+- blueprint final do piloto; backlog do MVP; requisitos de dados/LGPD;
+- plano de capacitação por perfil.
+
+**Etapa 2 – Construção do MVP do serviço + habilitadores digitais (8 a 12 semanas)**
+
+- módulos mínimos (cadastro, triagem, encaminhamento, plano v1, painéis v1);
+- integrações essenciais (a confirmar);
+- homologação com usuários-chave + acessibilidade.
+
+**Etapa 3 – Piloto em ambiente controlado (6 a 10 semanas)**
+
+- operação assistida; suporte intensivo;
+- coleta de métricas, ajustes e simplificação de fluxo.
+
+**Etapa 4 – Piloto em ambiente real (ampliação) (8 a 12 semanas)**
+
+- ampliação por ondas (mais unidades/linhas de cuidado);
+- refinamento de protocolos e governança.
+
+**Etapa 5 – Avaliação e plano de escala (4 a 6 semanas)**
+
+- evidências consolidadas; lições aprendidas;
+- proposta de continuidade (SLA, suporte, evolução).
+
+### 10.2 Equipe mínima e capacidades
+
+- liderança de produto/projeto;
+- UX/pesquisa e acessibilidade;
+- engenharia (back-end/front-end/integração);
+- segurança da informação + apoio LGPD;
+- dados/BI;
+- suporte e capacitação (implantação e operação assistida).
+
+### 10.3 Infraestrutura e operação (mínimo para funcionar bem)
 
 - hospedagem em ambiente acordado com o Município (nuvem pública/privada ou datacenter), com segregação de ambientes (desenvolvimento, homologação, produção);
 - backups, política de retenção e plano de recuperação;
 - monitoramento (disponibilidade, desempenho, logs e alertas);
-- gestão de incidentes e mudanças.
-
-### 8.2 Equipe mínima (perfil)
-
-- liderança de produto/projeto;
-- UX e co-desenho (com foco em fluxos intersetoriais);
-- engenharia de software (back-end, front-end, integração);
-- especialista em segurança da informação;
-- apoio jurídico/privacidade (LGPD);
-- analista de dados/BI (para relatórios e métricas);
-- suporte e capacitação (implantação e operação assistida).
-
-### 8.3 Dados e integrações
-
-- definição de cadastros mestres e chaves de identificação;
-- dicionário de dados mínimo e regras de qualidade;
-- definição de integrações prioritárias e formas de troca (API, batch, etc.);
-- mapeamento de perfis de acesso por secretaria e por unidade.
-
-### 8.4 LGPD e segurança
-
-- definição de papéis: controlador, operador(es) e suboperadores (quando aplicável);
-- base legal adequada por tratamento e finalidade;
-- gestão de consentimento quando pertinente;
-- controles de acesso, auditoria e segregação;
-- criptografia em trânsito e, quando aplicável, em repouso.
+- gestão de incidentes e mudanças;
+- requisitos de acessibilidade considerados em testes e validação (não apenas “UI bonita”).
 
 ---
 
-## 9. Metodologia, etapas e cronograma estimado
+## 11) KPIs e avaliação de resultados (métricas objetivas)
 
-Propomos uma execução em **fases**, com entregas curtas e validação progressiva. O cronograma abaixo é uma referência típica para projetos desse tipo; os prazos finais dependem da definição do escopo e do cenário de integrações.
+KPIs pactuados no co-desenho, com metas definidas após linha de base:
 
-### 9.1 Etapas
+| Dimensão | KPI (exemplos) | Como medir | Por quê importa |
+|---|---|---|---|
+| Acesso e navegação | % de casos com “próximo passo” registrado na entrada | auditoria de registros | reduz perda e ansiedade |
+| Fila/triagem | tempo médio da entrada → 1º encaminhamento | timestamps de eventos | reduz espera e retrabalho |
+| Coordenação | tempo de ciclo do encaminhamento (criar → aceitar → executar → contrarreferenciar) | workflow/status | garante continuidade |
+| Plano integrado | % de pessoas com plano v1 ativo e revisado no prazo | indicadores de revisão | integra setores |
+| Qualidade do dado | completude de campos mínimos + taxa de duplicidade | relatórios de qualidade | evita “lixo digital” |
+| Experiência da família | CSAT/NPS + esforço (CES) | pesquisa curta e acessível | humanização e adesão |
+| Acessibilidade | taxa de tarefas concluídas por usuários diversos | testes e pesquisa | inclusão real |
+| Segurança | incidentes e tempo de resposta; auditorias de acesso | logs e registros | confiança e conformidade |
 
-**Etapa 0 – Preparação e governança do projeto (2 a 4 semanas)**
-
-- alinhamento institucional (Saúde, Educação, Esportes e áreas transversais);
-- definição de comitê de acompanhamento;
-- definição de política de acesso e responsabilidades;
-- desenho inicial de indicadores de sucesso.
-
-**Etapa 1 – Descoberta e co-desenho (4 a 8 semanas)**
-
-- mapeamento de fluxos atuais e pontos de ruptura;
-- entrevistas e oficinas com profissionais e, quando aplicável, representantes de famílias;
-- definição de requisitos mínimos do piloto (funcionais, dados, segurança);
-- priorização do backlog (MVP do piloto) e arquitetura-alvo.
-
-**Etapa 2 – Construção do MVP e integrações essenciais (8 a 12 semanas)**
-
-- desenvolvimento dos módulos mínimos (cadastro, registro integrado, plano integrado, encaminhamentos);
-- integrações prioritárias (a confirmar);
-- trilhas de auditoria e perfis;
-- homologação técnica e validação com usuários-chave.
-
-**Etapa 3 – Piloto em ambiente controlado (6 a 10 semanas)**
-
-- piloto com unidades selecionadas (a definir com o Município);
-- acompanhamento intensivo (suporte e ajustes);
-- coleta de métricas e evidências de uso.
-
-**Etapa 4 – Piloto em ambiente real (ampliação) (8 a 12 semanas)**
-
-- ampliação para mais unidades e cenários;
-- refinamento de protocolos e rotinas intersetoriais;
-- avaliação de desempenho, segurança e governança.
-
-**Etapa 5 – Avaliação final e plano de escala (4 a 6 semanas)**
-
-- consolidação de resultados e lições aprendidas;
-- recomendação de modelo de escala (por ondas);
-- especificação de requisitos de continuidade (SLA, suporte, evolução).
-
-### 9.2 Cronograma de referência (ordem de grandeza)
-
-- Duração total estimada (Etapas 0 a 5): **aprox. 8 a 12 meses**
+Plano de testes e métricas detalhadas em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1).
 
 ---
 
-## 10. Plano de testes e validação
+## 12) Sustentabilidade (custos, financiamento e continuidade)
 
-O edital solicita detalhamento de testes em ambiente controlado e real. Sugerimos:
+### 12.1 Premissas para setor público
 
-### 10.1 Ambiente controlado (pré-piloto)
+- sustentabilidade exige **rotina operacional** (pessoas + suporte), além de tecnologia;
+- reduzir custo total por **menos retrabalho** e melhor coordenação;
+- criar previsibilidade: governança + SLAs + indicadores.
 
-- testes funcionais (fluxos principais: cadastro, plano integrado, encaminhamento);
-- testes de integração (APIs e rotinas de importação/exportação);
-- testes de segurança (autenticação, autorização, trilhas de auditoria, logs);
-- testes de desempenho (cargas compatíveis com piloto);
-- testes de usabilidade com profissionais (tarefas críticas e tempo de execução);
-- validação de conformidade (LGPD: minimização, acesso, registros).
+### 12.2 Estrutura de custos (visão)
 
-### 10.2 Ambiente real (piloto)
+| Categoria | Componentes típicos |
+|---|---|
+| Implantação (CAPEX) | descoberta/co-desenho, desenvolvimento, integrações, testes, acessibilidade, implantação assistida |
+| Operação de tecnologia (OPEX) | hospedagem, monitoramento, suporte, evolução, auditorias e governança |
+| Operação do serviço (ponta) | coordenação intersetorial, triagem e acompanhamento, gestão de pendências, capacitação |
 
-- acompanhamento do uso em unidades reais, com suporte de campo/remoto;
-- avaliação de adesão e qualidade de registros;
-- avaliação do fluxo intersetorial (tempo e completude);
-- auditorias amostrais de acesso e alterações;
-- coleta de feedback estruturado e ajustes de fluxo.
+### 12.3 Modelo de financiamento/receita (opções combináveis)
 
-### 10.3 Métricas sugeridas (sem metas numéricas fixadas nesta fase)
+1) **Contratação por marcos + operação/SLA** (modelo B2G)
+2) **Reembolso com teto + transparência** (quando incerteza é alta na inovação)
+3) **Componente variável por desempenho** (bônus por KPIs pactuados e auditáveis)
+4) **Captação complementar (quando aplicável):** convênios/transferências, projetos de inovação, parcerias com universidades (contrapartidas), emendas.
 
-As métricas devem ser pactuadas no co-desenho. Sugestões alinhadas ao desafio descrito no edital:
+### 12.4 Estimativa preliminar de custos por etapa (faixas)
 
-- proporção de pessoas com **plano integrado** ativo e revisado;
-- tempo de ciclo de **encaminhamento** (criação → aceite → execução → retorno);
-- taxa de completude de campos essenciais do registro;
-- adesão de usuários internos (acessos e uso por perfil);
-- incidentes de segurança e auditoria (eventos e tempo de resposta);
-- indicadores qualitativos de redução de retrabalho e melhoria da coordenação.
-
----
-
-## 11. Estimativa preliminar de custos por etapa (faixas)
-
-Conforme prática recomendada para consulta pública, apresentamos **faixas e ordens de grandeza**, **sem caráter vinculante**, a serem refinadas após a etapa de descoberta.
-
-Os valores abaixo consideram esforço de equipe, gestão, desenvolvimento, testes e implantação assistida, variando conforme integrações, escopo do piloto e requisitos de segurança.
+Faixas não vinculantes, para consulta pública (refino após descoberta):
 
 | Etapa | Descrição | Estimativa preliminar (R$) |
 |---|---|---|
 | 0 | Preparação e governança | 80 mil a 200 mil |
 | 1 | Descoberta e co-desenho | 200 mil a 450 mil |
 | 2 | MVP + integrações essenciais | 600 mil a 1,5 milhão |
-| 3 | Piloto controlado | 250 mil a 600 mil |
+| 3 | Piloto controlado (operação assistida) | 250 mil a 600 mil |
 | 4 | Piloto em ambiente real (ampliação) | 400 mil a 1,0 milhão |
 | 5 | Avaliação final e plano de escala | 150 mil a 350 mil |
 
-**Custos recorrentes (opcional/estimativo):** suporte, evolução e operação (SaaS/serviços) podem variar conforme a arquitetura e o modelo definido pelo Município.
+Premissas e fatores de variação em [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1).
 
 ---
 
-## 12. Modalidades de remuneração e incentivos (opções)
+## 13) LGPD, privacidade e segurança da informação
 
-O edital solicita modalidades de remuneração e incentivos. Como esta é uma consulta pública (não um contrato), sugerimos alternativas que podem ser discutidas em eventual fase posterior:
+Conforme o edital, observar **Lei nº 13.709/2018 (LGPD)** e **Decreto Municipal nº 44.844/2021**.
 
-1) **Pagamento por marcos (entregas)**
-- cada etapa com critérios de aceite objetivos (ex.: MVP homologado; piloto concluído; plano de escala aprovado).
+Controles essenciais:
 
-2) **Reembolso de custos (com tetos) + taxa de gestão**
-- útil quando há incerteza relevante no escopo de inovação e necessidade de transparência do custo.
+- privacidade desde a concepção e por padrão;
+- minimização (coletar/exibir apenas o necessário por finalidade);
+- perfis por contexto (saúde/educação/esportes) + mínimo privilégio;
+- logs, trilha de auditoria e retenção definida;
+- criptografia em trânsito (TLS) e, quando aplicável, em repouso;
+- gestão de operadores/suboperadores;
+- resposta a incidentes.
 
-3) **Componente variável por desempenho**
-- bônus condicionado a métricas pactuadas no piloto (ex.: adoção mínima por unidades definidas; redução de tempo de ciclo de encaminhamento; qualidade de dados).
-
-4) **SLA e continuidade**
-- para fase de operação/escala, com níveis de serviço (disponibilidade, tempo de resposta a incidentes, prazos de correção).
-
----
-
-## 13. Propriedade intelectual e licenciamento (sugestões)
-
-O edital solicita arranjos de PI envolvendo software, dados e código-fonte. Sugestão equilibrada para discussão:
-
-- **Dados**: permanecem sob titularidade e governança do Município (incluindo regras de acesso e compartilhamento).
-- **Código do “núcleo” específico do Município** (regras, fluxos e artefatos desenvolvidos sob demanda):
-  - opção de licenciamento ao Município com direitos de uso, modificação e evolução;
-  - possibilidade de **licença não exclusiva** para o Município, preservando reuso de componentes genéricos pelo fornecedor (sem dados e sem regras específicas).
-- **Componentes proprietários** do fornecedor: podem permanecer proprietários, desde que:
-  - a interoperabilidade seja garantida (APIs e formatos);
-  - haja mecanismos de continuidade (ex.: documentação, padrões, e eventualmente **escrow** de código-fonte em condições definidas).
-- **Documentação e modelos de dados**: recomendação de entrega completa e atualizada, para reduzir dependência.
+Checklist detalhado em [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1).
 
 ---
 
-## 14. LGPD, privacidade e segurança da informação
+## 14) Propriedade intelectual e licenciamento (sugestão equilibrada)
 
-Conforme o edital, o tratamento de dados pessoais deve observar a **Lei nº 13.709/2018 (LGPD)** e o **Decreto Municipal nº 44.844/2021**.
-
-Proposta de controles e práticas:
-
-- **Privacidade desde a concepção** (privacy by design) e por padrão (privacy by default);
-- **Minimização**: coletar e exibir apenas o necessário por finalidade;
-- **Gestão de acesso**: autenticação forte, autorização por perfis e por contexto (saúde/educação/esportes);
-- **Segregação lógica** quando necessário (ex.: dados especialmente sensíveis e visões por secretaria);
-- **Logs e auditoria**: registros de acesso, consulta e alteração (com retenção definida);
-- **Criptografia** em trânsito (TLS) e, quando aplicável, em repouso;
-- **Gestão de consentimento** e registros quando pertinente (sem confundir com outras bases legais possíveis);
-- **Gestão de operadores/suboperadores**: contratos, controles e rastreabilidade;
-- **Plano de resposta a incidentes**: classificação, comunicação, contenção e lições aprendidas.
+- **Dados** sob titularidade e governança do Município.
+- **Código específico do Município** (regras/fluxos desenvolvidos sob demanda): licenciamento ao Município com direitos de uso, modificação e evolução.
+- **Componentes genéricos/proprietários**: podem permanecer com o fornecedor, desde que haja interoperabilidade (APIs/formatos), documentação e mecanismo de continuidade.
 
 ---
 
-## 15. Riscos e estratégias de mitigação
+## 15) Riscos e mitigação (foco em operação real)
 
-| Risco | Descrição | Mitigação sugerida |
+| Risco | Como afeta o serviço | Mitigação prática |
 |---|---|---|
-| Interoperabilidade | Sistemas setoriais não “conversam” e não há padrão único | diagnóstico técnico; integrações por fases; padronização mínima de dados; APIs e dicionário de dados |
-| Governança e adesão | Resistência a mudanças e sobrecarga de equipes | co-desenho; treinamento por perfil; implantação por ondas; apoio operacional no piloto |
-| Privacidade/LGPD | Exposição indevida de dados sensíveis | perfis e mínima exposição; logs; auditoria; revisões periódicas; segregação |
-| Qualidade de dados | Cadastros inconsistentes e duplicidade | regras de validação; deduplicação assistida; qualidade por indicadores |
-| Sustentabilidade | Solução piloto não se mantém no dia a dia | definição de modelo de operação; SLAs; governança contínua; simplificação de fluxos |
-| Escopo excessivo | Tentativa de integrar “tudo” de uma vez | MVP bem definido; priorização; entregas curtas; critérios de aceite |
+| Interoperabilidade | duplicidade e informação incompleta | integrações por fases; dicionário mínimo; APIs; governança |
+| Adesão/rotina | sistema vira “mais um trabalho” | MVP do básico; co-desenho; capacitação; suporte em campo; simplificação |
+| Privacidade/LGPD | perda de confiança | mínimo privilégio; visões por contexto; logs; auditoria; treinamento |
+| Qualidade de dados | indicadores ruins e retrabalho | campos mínimos; validações; deduplicação; painéis de qualidade |
+| Sustentabilidade | piloto sem continuidade | OPEX planejado; SLA; governança e KPIs; modelo de contratação adequado |
+| Acessibilidade/humanização | baixa adesão da família | materiais acessíveis; roteiros; canais; testes com usuários diversos |
+
+Matriz detalhada em [`Anexo_D_Matriz_Riscos.md`](Anexo_D_Matriz_Riscos.md:1).
 
 ---
 
-## 16. Impactos esperados
+## 16) Impactos esperados (valor público)
 
-Sem fixar metas numéricas nesta fase, espera-se que a abordagem proposta contribua para:
-
-### 16.1 Impactos sociais
-
-- maior continuidade e coordenação do cuidado centrado na pessoa neurodivergente;
-- redução de desgaste de famílias, por diminuir a necessidade de intermediar informações;
-- fortalecimento de inclusão e bem-estar, por alinhamento entre planos e rotinas intersetoriais.
-
-### 16.2 Impactos operacionais
-
-- redução de retrabalho (reentrada de dados e documentos);
-- maior rastreabilidade de encaminhamentos e retorno de informações;
-- padronização de rotinas e protocolos intersetoriais, com flexibilidade para singularidades.
-
-### 16.3 Impactos econômicos/financeiros
-
-- melhor alocação de recursos públicos ao reduzir duplicidades e desalinhamentos;
-- maior capacidade de gestão por indicadores (planejamento e priorização).
+- **Sociais:** continuidade do cuidado; redução de desgaste das famílias; inclusão com previsibilidade.
+- **Operacionais:** menos retrabalho; rastreabilidade; melhor coordenação intersetorial.
+- **Econômico-financeiros:** melhor alocação de recursos pela redução de duplicidades e pela gestão por indicadores.
 
 ---
 
-## 17. Confidencialidade: o que será marcado e como destacar
+## 17) Mapeamento aos quesitos do edital (a–n)
 
-### 17.1 Princípio
-Esta proposta pode ser submetida **sem informações confidenciais**, sempre que possível, para facilitar a ampla divulgação do compilado da consulta.
+Tabela para facilitar preenchimento do formulário:
 
-Quando houver necessidade de incluir informações industriais, tecnológicas ou comerciais sensíveis, elas serão:
-- **explicitamente marcadas** como **CONFIDENCIAL**;
-- **delimitadas** (trecho/seção) para evitar “contaminação” do documento inteiro;
-- acompanhadas de **justificativa objetiva** (ex.: segredo industrial, estratégia comercial).
-
-### 17.2 Lista objetiva do que será marcado como confidencial (se aplicável)
-**Opção padrão recomendada:** *nenhuma informação confidencial*.
-
-Caso o proponente opte por marcar confidencialidade, recomenda-se limitar a:
-1) detalhes de arquitetura interna proprietária **além** do necessário para entendimento (ex.: desenhos detalhados de componentes internos);
-2) precificação interna e composição de custos (ex.: taxas/hora, margem, custos de terceiros) – mantendo apenas **faixas** e premissas públicas;
-3) informações comerciais sensíveis (ex.: estratégia de go-to-market, contratos e termos específicos com terceiros);
-4) quaisquer anexos que tragam **segredos industriais**.
-
-Modelo de marcação e redação sugerida em [`Anexo_F_Confidencialidade.md`](Anexo_F_Confidencialidade.md:1).
-
----
-
-## 18. Declarações finais (consulta pública)
-
-Em conformidade com as disposições do edital:
-
-1) **Ausência de remuneração e custos do participante**
-- reconhecemos que não há remuneração/indenização/apoio financeiro para participar desta consulta pública e que os custos de participação são integralmente do proponente.
-
-2) **Sem exclusividade, preferência ou direito futuro**
-- reconhecemos que a participação na consulta pública não confere exclusividade, vantagem ou preferência em eventual contratação futura.
-
-3) **Autorização de uso das informações**
-- autorizamos que a Administração utilize as informações fornecidas nesta manifestação, no todo ou em parte, para subsidiar estudos, termos de referência e documentos de eventual contratação, nos limites do edital.
-
-4) **Complementos por e-mail e ausência de devolutiva individual**
-- reconhecemos que o Município pode solicitar informações complementares por e-mail e que não há devolutiva individual, podendo haver reunião/oficina a critério do Município.
-
-5) **Confidencialidade e LAI**
-- caso haja informações industriais, tecnológicas ou comerciais sensíveis, estas serão identificadas como confidenciais, cientes de que o tratamento observará a Lei de Acesso à Informação (Lei nº 12.527/2011) e os limites legais de sigilo.
-
-6) **LGPD**
-- reconhecemos a necessidade de observância da LGPD (Lei nº 13.709/2018) e do Decreto Municipal nº 44.844/2021 nas atividades que envolvam dados pessoais.
-
-7) **Anticorrupção**
-- declaramos que observaremos as vedações do edital quanto a oferecer, prometer, dar ou aceitar vantagem indevida relacionada, direta ou indiretamente, ao objeto desta consulta, incluindo a observância da Lei Federal nº 12.846/2013 (Lei Anticorrupção).
-
-8) **Conflito de interesses e integridade**
-- declaramos ciência e observância das vedações e impedimentos aplicáveis à prevenção de conflitos de interesse, conforme legislação pertinente (incluindo a Lei nº 12.813/2013 e a Lei Municipal nº 8.772/2019, conforme referidas no edital).
+| Quesito do edital | Onde está atendido nesta proposta |
+|---|---|
+| (a) Solução existente vs desenvolvimento | Seção 9 (TRL) + Seção 10 (fases) |
+| (b) Especificações técnicas/operacionais + TRL | Seções 8–10 + [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1) |
+| (c) Capacidade técnica/profissional/operacional | Seção 10.2 |
+| (d) Origens de materiais/insumos | Seções 8 e 12 |
+| (e) Potenciais fornecedores | Categorias: software, integração, UX, segurança, suporte (Seção 10.2) |
+| (f) Etapas/tempo + cronograma físico-financeiro | Seção 10 + [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1) |
+| (g) Testes em ambiente controlado e real | Seção 11 + [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) |
+| (h) Custo por etapa | Seção 12.4 + [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1) |
+| (i) Remuneração/incentivos | Seção 12.3 |
+| (j) Propriedade intelectual | Seção 14 |
+| (k) Métricas de desempenho | Seção 11 + [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) |
+| (l) Riscos e mitigação | Seção 15 + [`Anexo_D_Matriz_Riscos.md`](Anexo_D_Matriz_Riscos.md:1) |
+| (m) Impactos esperados | Seção 16 |
+| (n) Outros aspectos | Seções 6–7 (BMC + Design de Serviço) e Seção 13 (LGPD) |
 
 ---
 
-## 19. Anexos
+## 18) Confidencialidade (LAI) – marcação objetiva
 
-Os anexos abaixo detalham itens citados ao longo da proposta e podem ser convertidos/compactados para PDF, se necessário para anexação ao formulário.
+- Preferência: **submeter sem informações confidenciais**.
+- Se necessário, marcar trechos como **CONFIDENCIAL** com justificativa objetiva e delimitada.
+
+Modelo sugerido em [`Anexo_F_Confidencialidade.md`](Anexo_F_Confidencialidade.md:1).
+
+---
+
+## 19) Declarações finais (consulta pública)
+
+Em conformidade com o edital:
+
+1) sem remuneração por participação;  
+2) sem exclusividade ou preferência;  
+3) autorização de uso das informações para subsidiar estudos;  
+4) possibilidade de complementos por e-mail e ausência de devolutiva individual;  
+5) confidencialidade observando LAI (Lei nº 12.527/2011);  
+6) observância da LGPD e decreto municipal correlato;  
+7) observância de vedações anticorrupção (Lei nº 12.846/2013);  
+8) prevenção de conflitos de interesse e integridade (legislação aplicável).
+
+---
+
+## 20) Anexos (referências)
 
 - [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1)
 - [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1)
@@ -564,4 +490,3 @@ Os anexos abaixo detalham itens citados ao longo da proposta e podem ser convert
 - [`Anexo_D_Matriz_Riscos.md`](Anexo_D_Matriz_Riscos.md:1)
 - [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1)
 - [`Anexo_F_Confidencialidade.md`](Anexo_F_Confidencialidade.md:1)
-
