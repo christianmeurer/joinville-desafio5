@@ -1,3 +1,15 @@
 *
-!*.md
+
+# allow this ignore file
 !.gitignore
+
+# allow docs folder for GitHub Pages (Jekyll)
+!docs/
+!docs/**
+
+# allow markdown documents
+!*.md
+
+# allow Jekyll config
+!*.yml
+!*.yaml
