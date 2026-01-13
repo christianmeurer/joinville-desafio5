@@ -17,3 +17,7 @@
 # allow Jekyll config
 !*.yml
 !*.yaml
+# Jekyll / GitHub Pages
+_site/
+.jekyll-cache/
+.sass-cache/

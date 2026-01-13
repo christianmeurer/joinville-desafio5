@@ -1,0 +1,16 @@
+title: "Joinville - Desafio 5"
+description: "Documentação e anexos do Desafio 5 (Consulta Pública de Inovação Aberta - Joinville)."
+
+# GitHub Pages will provide the theme dependencies automatically.
+theme: minima
+
+# Keep URLs stable under https://<user>.github.io/<repo>/
+baseurl: "/"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+minima:
+  skin: auto
+
