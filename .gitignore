@@ -3,6 +3,10 @@
 # allow this ignore file
 !.gitignore
 
+# allow GitHub Actions workflows (required for Pages build_type=workflow)
+!.github/
+!.github/**
+
 # allow docs folder for GitHub Pages (Jekyll)
 !docs/
 !docs/**
