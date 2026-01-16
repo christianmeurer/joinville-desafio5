@@ -1,8 +1,24 @@
-# Anexo C – Cronograma e custos (ordem de grandeza)
+# Anexo C — Cronograma e custos (ordem de grandeza)
 
-Este anexo traz um modelo de cronograma físico-financeiro **não vinculante**, adequado à consulta pública.
+**Objetivo do anexo:** apresentar um cronograma físico-financeiro de referência (faixas de duração e custos) para implantação do **MVP do serviço** e sua evolução, adequado à consulta pública e **não vinculante**.
 
-## C.1 Premissas (explícitas)
+**Como usar:** (i) entender a lógica de etapas e marcos, (ii) visualizar fatores que mais influenciam prazo/custo e (iii) apoiar conversas sobre sustentabilidade (CAPEX/OPEX) sem presumir cenário técnico específico.
+
+**Relação com a proposta:** este anexo detalha as estimativas por etapa e seus fatores de variação citados em “Sustentabilidade” e em “Operação e implantação” (ver [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:270) e [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:349)). Referências cruzadas: métricas/evidências do piloto em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) e riscos típicos (impactos em cronograma) em [`Anexo_D_Matriz_Riscos.md`](Anexo_D_Matriz_Riscos.md:1).
+
+---
+
+## Sumário
+
+- [1. Premissas](#1-premissas)
+- [2. Cronograma de referência por etapa](#2-cronograma-de-referência-por-etapa)
+- [3. Custos por etapa (faixas) e fatores de variação](#3-custos-por-etapa-faixas-e-fatores-de-variação)
+- [4. Itens recorrentes (operação)](#4-itens-recorrentes-operação)
+- [5. Estrutura de marcos (para eventual contrato)](#5-estrutura-de-marcos-para-eventual-contrato)
+
+---
+
+## 1. Premissas
 
 As faixas de custo e duração variam conforme:
 
@@ -13,7 +29,9 @@ As faixas de custo e duração variam conforme:
 - modelo de hospedagem (nuvem, datacenter, híbrido);
 - intensidade de suporte e capacitação no piloto.
 
-## C.2 Cronograma de referência por etapa
+> Nota: as durações a seguir se alinham ao desenho por etapas apresentado na proposta. Ajustes finos dependem do diagnóstico (integrações, qualidade de dados e definição de ponto(s) de entrada do piloto).
+
+## 2. Cronograma de referência por etapa
 
 | Etapa | Duração típica (faixa) | Entregas principais |
 |---|---:|---|
@@ -24,7 +42,7 @@ As faixas de custo e duração variam conforme:
 | 4 – Piloto em ambiente real (ampliação) | 8–12 semanas | expansão, refinamento de rotinas, validação ampliada |
 | 5 – Avaliação final e plano de escala | 4–6 semanas | relatório final, requisitos de continuidade, plano de ondas |
 
-## C.3 Custos por etapa (faixas) e o que influencia
+## 3. Custos por etapa (faixas) e fatores de variação
 
 As faixas abaixo replicam o quadro da proposta e adicionam fatores de variação.
 
@@ -37,7 +55,9 @@ As faixas abaixo replicam o quadro da proposta e adicionam fatores de variação
 | 4 | 400 mil a 1,0 milhão | ampliação, estabilização, governança e qualidade de dados |
 | 5 | 150 mil a 350 mil | consolidação de evidências, plano de escala e continuidade |
 
-## C.4 Itens recorrentes (quando houver operação)
+> Leitura recomendada: ao interpretar a Etapa 2 (MVP), considerar que o “produto” a ser entregue é **o serviço operando** com fluxos rastreáveis e governança mínima — e não apenas software instalado (ver definição de MVP do serviço em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:129)).
+
+## 4. Itens recorrentes (operação)
 
 Sem fixar valores, itens recorrentes podem incluir:
 
@@ -47,7 +67,7 @@ Sem fixar valores, itens recorrentes podem incluir:
 - auditorias e revisões de acesso;
 - capacitações periódicas.
 
-## C.5 Estrutura de “marcos” (para eventual contrato)
+## 5. Estrutura de marcos (para eventual contrato)
 
 Exemplo de marcos (indicativo):
 

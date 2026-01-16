@@ -1,8 +1,21 @@
-# Anexo D – Matriz de riscos (tecnológicos, operacionais e regulatórios)
+# Anexo D — Matriz de riscos (tecnológicos, operacionais e regulatórios)
 
-Este anexo apresenta riscos típicos para um projeto intersetorial com dados sensíveis, com mitigação sugerida.
+**Objetivo do anexo:** registrar, de forma simples e acionável, os principais riscos típicos de um projeto intersetorial com dados sensíveis, com sugestões de mitigação e evidências/controles esperados.
 
-## D.1 Matriz
+**Como usar:** (i) priorizar riscos na etapa de descoberta, (ii) transformar mitigação em ações do backlog e (iii) acompanhar, no piloto, evidências de que o serviço está operando com governança (acessos, rotinas, indicadores).
+
+**Relação com a proposta:** esta matriz detalha os riscos resumidos na seção de “Riscos e mitigação (foco em operação real)” (ver [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:415)). Referências cruzadas: abordagem de validação em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1), checklist LGPD/segurança em [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1) e cronograma/custos (impactos típicos de risco) em [`Anexo_C_Cronograma_Custos.md`](Anexo_C_Cronograma_Custos.md:1).
+
+---
+
+## Sumário
+
+- [1. Matriz](#1-matriz)
+- [2. Classificação (qualitativa)](#2-classificação-qualitativa)
+
+---
+
+## 1. Matriz
 
 | Categoria | Risco | Como se manifesta | Mitigação sugerida | Evidência/controle |
 |---|---|---|---|---|
@@ -17,7 +30,9 @@ Este anexo apresenta riscos típicos para um projeto intersetorial com dados sen
 | Escopo | Crescimento descontrolado | tentativa de “resolver tudo” | MVP bem definido; critérios de aceite; gestão de mudanças | backlog priorizado |
 | Stakeholders | Alinhamento institucional frágil | conflitos entre redes | comitê intersetorial; decisões registradas; metas compartilhadas | atas e governança |
 
-## D.2 Classificação (qualitativa)
+## 2. Classificação (qualitativa)
 
 Nesta consulta, recomenda-se classificar risco por **Baixo/Médio/Alto** em probabilidade e impacto, com priorização na etapa de descoberta.
+
+Critério prático: a classificação deve refletir (i) o quanto o risco compromete o **serviço operando** (ex.: contrarreferência falhando, família virando ponte) e (ii) o quanto é difícil reverter o problema depois do piloto.
 

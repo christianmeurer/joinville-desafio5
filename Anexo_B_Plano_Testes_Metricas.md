@@ -1,16 +1,33 @@
-# Anexo B – Plano de testes e métricas (piloto)
+# Anexo B — Plano de testes e métricas (piloto)
 
-Este anexo detalha uma abordagem de testes **em ambiente controlado** e **em ambiente real**, com métricas e evidências recomendadas.
+**Objetivo do anexo:** descrever uma abordagem prática para validar o **MVP do serviço** e seus habilitadores digitais, combinando testes em ambiente controlado e validação em operação real, com métricas e evidências recomendadas.
 
-## B.1 Objetivo
+**Como usar:** (i) escolher quais fluxos serão testados primeiro, (ii) definir evidências mínimas para decisão de continuidade/escala e (iii) alinhar a coleta de métricas com a rotina de governança do piloto.
 
-- validar que a solução funciona para os fluxos críticos do atendimento integrado;
-- produzir evidências para decisão de continuidade e escala;
-- reduzir riscos de segurança, privacidade e adesão.
+**Relação com a proposta:** este anexo complementa a seção de KPIs e avaliação de resultados (ver [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:330)) e se conecta às etapas de implantação (ver [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:270)). Referências cruzadas: premissas de segurança e arquitetura em [`Anexo_A_Visao_Arquitetural.md`](Anexo_A_Visao_Arquitetural.md:1) e checklist LGPD/segurança em [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1).
 
-## B.2 Estratégia de validação por etapa
+---
 
-### B.2.1 Ambiente controlado (pré-piloto)
+## Sumário
+
+- [1. Objetivo](#1-objetivo)
+- [2. Estratégia de validação por etapa](#2-estratégia-de-validação-por-etapa)
+- [3. Métricas sugeridas](#3-métricas-sugeridas)
+- [4. Evidências mínimas recomendadas](#4-evidências-mínimas-recomendadas)
+
+---
+
+## 1. Objetivo
+
+Este plano busca:
+
+- validar que o serviço (processo + plataforma) sustenta os **fluxos críticos** do atendimento integrado;
+- produzir evidências objetivas para decisão de continuidade e escala;
+- reduzir riscos de segurança, privacidade (LGPD) e adesão das equipes.
+
+## 2. Estratégia de validação por etapa
+
+### 2.1 Ambiente controlado (pré-piloto)
 
 **Entradas:** requisitos mínimos, fluxos priorizados, perfis de usuários, dados de teste.
 
@@ -25,7 +42,9 @@ Este anexo detalha uma abordagem de testes **em ambiente controlado** e **em amb
 | Usabilidade | tarefas críticas por perfil (tempo e taxa de erro) | roteiros, gravações/relatos, achados |
 | Desempenho | cargas compatíveis com piloto, tempos de resposta | medições e limites acordados |
 
-### B.2.2 Ambiente real (piloto)
+> Observação: recomenda-se que os testes funcionais e de usabilidade sejam alinhados aos fluxos do **service blueprint** e às etapas do serviço descritas na proposta, evitando “testar tela” sem contexto de operação (ver jornada/blueprint em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:178)).
+
+### 2.2 Ambiente real (piloto)
 
 **Entradas:** unidades selecionadas, equipe de suporte, rotinas pactuadas.
 
@@ -36,11 +55,13 @@ Este anexo detalha uma abordagem de testes **em ambiente controlado** e **em amb
 - ajustes de fluxo e treinamento complementar;
 - auditorias amostrais de acesso e alterações.
 
-## B.3 Métricas sugeridas (sem metas numéricas fixas nesta fase)
+## 3. Métricas sugeridas (sem metas numéricas fixas nesta fase)
 
 As metas devem ser pactuadas no co-desenho. Abaixo, um catálogo de métricas (com forma de medição).
 
-### B.3.1 Adoção e uso
+> Nota: os KPIs propostos no documento principal servem como “núcleo” do que deve ser medido; aqui, a intenção é detalhar medições e boas práticas de interpretação (ver KPIs na proposta em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:330)).
+
+### 3.1 Adoção e uso
 
 | Métrica | Como medir | Observações |
 |---|---|---|
@@ -48,7 +69,7 @@ As metas devem ser pactuadas no co-desenho. Abaixo, um catálogo de métricas (c
 | Unidades aderentes | unidades com uso recorrente | evitar “login único” como sinal falso |
 | Fluxos concluídos | % de encaminhamentos com retorno | por tipo de encaminhamento |
 
-### B.3.2 Qualidade e continuidade do cuidado
+### 3.2 Qualidade e continuidade do cuidado
 
 | Métrica | Como medir | Observações |
 |---|---|---|
@@ -56,7 +77,7 @@ As metas devem ser pactuadas no co-desenho. Abaixo, um catálogo de métricas (c
 | Alinhamento de plano | registro de objetivos compartilhados | qualitativo + amostral |
 | Completude de campos essenciais | % preenchimento em campos mínimos | por etapa do fluxo |
 
-### B.3.3 Eficiência operacional
+### 3.3 Eficiência operacional
 
 | Métrica | Como medir | Observações |
 |---|---|---|
@@ -64,7 +85,7 @@ As metas devem ser pactuadas no co-desenho. Abaixo, um catálogo de métricas (c
 | Retrabalho | reabertura/correções por tipo | correlacionar com treinamento |
 | Redução de “ponte” pela família | pesquisa/entrevista estruturada | comparar antes/depois no piloto |
 
-### B.3.4 Segurança, auditoria e conformidade
+### 3.4 Segurança, auditoria e conformidade
 
 | Métrica | Como medir | Observações |
 |---|---|---|
@@ -72,7 +93,7 @@ As metas devem ser pactuadas no co-desenho. Abaixo, um catálogo de métricas (c
 | Tempo de resposta a incidente | abertura → contenção/correção | processo pactuado |
 | Revisão de acessos | periodicidade e execução | evidência de governança |
 
-## B.4 Evidências mínimas recomendadas
+## 4. Evidências mínimas recomendadas
 
 - relatório de testes (ambiente controlado);
 - registros de treinamento (por perfil) e materiais de apoio;

@@ -1,22 +1,44 @@
-# Anexo A – Visão arquitetural (referência)
+# Anexo A — Visão arquitetural (referência)
 
-Este anexo descreve uma visão arquitetural **suficiente para avaliação técnica** na consulta pública, sem detalhar segredos industriais.
+**Objetivo do anexo:** apresentar uma visão arquitetural **suficiente para avaliação técnica** na consulta pública, descrevendo como a plataforma digital habilita o **serviço operando** (atendimento integrado), sem expor detalhes proprietários.
 
-## A.1 Objetivo e escopo
+**Como usar:** utilizar este anexo como referência para (i) discutir princípios e módulos mínimos do MVP do serviço, (ii) orientar o diagnóstico técnico (integrações/dados) e (iii) apoiar a definição de controles essenciais de segurança e privacidade.
 
-- apoiar o atendimento integrado (Saúde, Educação e Esportes) a pessoas neurodivergentes;
-- permitir **compartilhamento controlado** de informações entre setores, com rastreabilidade;
-- evitar dependência de integrações específicas não confirmadas: as integrações são **progressivas** e definidas após diagnóstico.
+**Relação com a proposta:** este anexo detalha o que é resumido na proposta em “Solução digital (habilitador do serviço)” e em “LGPD, privacidade e segurança” (ver [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:238)). Referências cruzadas: plano de testes e métricas em [`Anexo_B_Plano_Testes_Metricas.md`](Anexo_B_Plano_Testes_Metricas.md:1) e checklist LGPD/segurança em [`Anexo_E_Checklist_LGPD_Seguranca.md`](Anexo_E_Checklist_LGPD_Seguranca.md:1).
 
-## A.2 Princípios técnicos
+---
 
-1) **Privacidade e segurança por padrão** (minimização, segmentação de acesso, auditoria)
-2) **Interoperabilidade por APIs** (quando disponíveis), com alternativas por troca de arquivos quando necessário
-3) **Dados sob governança do Município** (com regras claras de controlador/operador)
-4) **Implantação em fases**, com piloto e evolução
-5) **Observabilidade e rastreabilidade** (logs, auditoria, métricas)
+## Sumário
 
-## A.3 Componentes (visão lógica)
+- [1. Objetivo e escopo](#1-objetivo-e-escopo)
+- [2. Princípios técnicos](#2-princípios-técnicos)
+- [3. Componentes (visão lógica)](#3-componentes-visão-lógica)
+- [4. Integrações (abordagem)](#4-integrações-abordagem)
+- [5. Modelo de dados (mínimo)](#5-modelo-de-dados-mínimo)
+- [6. Segurança (visão de controles)](#6-segurança-visão-de-controles)
+- [7. TRL (estimativa orientativa)](#7-trl-estimativa-orientativa)
+
+---
+
+## 1. Objetivo e escopo
+
+Esta visão arquitetural foi elaborada para apoiar o **atendimento integrado** (Saúde, Educação e Esportes) a pessoas neurodivergentes, com foco em:
+
+- habilitar o **compartilhamento controlado** de informações entre setores, com rastreabilidade;
+- reduzir retrabalho e dependência da família como “ponte” (encaminhamentos com contrarreferência e status);
+- manter o desenho compatível com a consulta pública: **não presumir integrações específicas** ainda não confirmadas.
+
+> Nota de alinhamento: integrações e regras de dados são tratadas como **progressivas**, definidas após diagnóstico/co-desenho (conforme abordagem em fases descrita na proposta em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:270)).
+
+## 2. Princípios técnicos
+
+1) **Privacidade e segurança por padrão**: minimização de dados, segmentação de acesso por contexto, trilha de auditoria.
+2) **Interoperabilidade por APIs** quando disponíveis; alternativas por troca de arquivos/lote quando necessário.
+3) **Dados sob governança do Município**: papéis claros de Controlador/Operador e regras de acesso auditáveis.
+4) **Implantação em etapas**, começando pelo MVP do serviço, com piloto e evolução.
+5) **Observabilidade e rastreabilidade**: logs, métricas e auditoria para suportar operação e governança.
+
+## 3. Componentes (visão lógica)
 
 | Componente | Função | Observações |
 |---|---|---|
@@ -30,9 +52,9 @@ Este anexo descreve uma visão arquitetural **suficiente para avaliação técni
 | Auditoria e logs | quem acessou/alterou o quê e quando | retenção definida em política |
 | Integração (API/ETL) | conectores e rotinas de sincronização | por fases e prioridades |
 
-## A.4 Integrações (abordagem)
+## 4. Integrações (abordagem)
 
-### A.4.1 Premissas
+### 4.1 Premissas
 
 - Não se assume integração “pronta” com sistemas específicos.
 - No diagnóstico, definir:
@@ -41,13 +63,13 @@ Este anexo descreve uma visão arquitetural **suficiente para avaliação técni
   - periodicidade (tempo real vs. lote);
   - mecanismos disponíveis (API, arquivo, barramento).
 
-### A.4.2 Estratégia por fases
+### 4.2 Estratégia por etapas
 
-1) **Fase piloto**: mínima interoperabilidade para evitar retrabalho (cadastros essenciais e vínculos)
-2) **Fase ampliação**: integrar fluxos críticos (encaminhamentos e retornos)
-3) **Fase escala**: consolidar indicadores e governança em toda a rede
+1) **Etapa inicial (MVP do serviço):** interoperabilidade mínima para evitar retrabalho (cadastros essenciais e vínculos).
+2) **Etapa de ampliação:** integrar fluxos críticos (encaminhamentos e retornos/contrarreferência).
+3) **Etapa de escala:** consolidar indicadores, governança e qualidade de dados em toda a rede.
 
-## A.5 Modelo de dados (mínimo)
+## 5. Modelo de dados (mínimo)
 
 Campos sugeridos como “mínimos” (a ajustar no co-desenho):
 
@@ -57,7 +79,7 @@ Campos sugeridos como “mínimos” (a ajustar no co-desenho):
 - Encaminhamentos: origem, destino, motivo, status, prazos (quando aplicável), contrarreferência
 - Auditoria: usuário, data/hora, ação, justificativa
 
-## A.6 Segurança (visão de controles)
+## 6. Segurança (visão de controles)
 
 Controles recomendados (não exaustivo):
 
@@ -69,12 +91,12 @@ Controles recomendados (não exaustivo):
 - trilhas de auditoria e revisão periódica de acessos;
 - política de retenção e descarte de dados.
 
-## A.7 TRL (estimativa orientativa)
+## 7. TRL (estimativa orientativa)
 
-Como a consulta pública não detalha o cenário municipal nem o estado real de uma solução prévia do proponente, recomenda-se declarar TRL **como faixa**, sujeita a confirmação:
+Como a consulta pública não detalha o cenário municipal (integrações, infraestrutura, inventário de dados) nem o estado real de uma base reutilizável do proponente, recomenda-se declarar TRL **como faixa**, sujeita a confirmação na descoberta.
 
 - **TRL 4–6**: quando o produto ainda depende de construção relevante e validações progressivas.
 - **TRL 6–7**: quando existe MVP/protótipo validado em ambiente relevante, exigindo adaptação e integrações.
 
-Critério prático: o TRL aumenta à medida que houver evidências de uso, testes e operação em condições similares às do Município.
+Critério prático: o TRL aumenta à medida que houver evidências de uso, testes e operação em condições similares às do Município (ver a orientação de maturidade na proposta em [`Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md`](Proposta_Consulta_Publica_Inovacao_Aberta_Joinville_Desafio_5.md:261)).
 
